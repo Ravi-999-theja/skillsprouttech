@@ -1944,6 +1944,33 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+/* Form validation styles */
+.contact .php-email-form .form-control.is-invalid {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.contact .php-email-form .invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
+}
+
+.contact .php-email-form .invalid-feedback.show {
+  display: block;
+}
+
+.contact .php-email-form button[type=submit]:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+.contact .php-email-form button[type=submit]:disabled:hover {
+  background: #6c757d;
+}
+
 /* Responsive adjustments for contact section */
 @media (max-width: 768px) {
   .contact .info-item {
