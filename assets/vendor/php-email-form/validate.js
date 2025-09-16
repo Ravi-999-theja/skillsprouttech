@@ -1,7 +1,7 @@
 /**
 * PHP Email Form Validation - v3.9
-* URL: https://bootstrapmade.com/php-email-form/
-* Author: BootstrapMade.com
+* Customized for Skill Sprout Solutions
+* All template references removed
 */
 (function () {
   "use strict";
